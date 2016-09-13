@@ -17,7 +17,7 @@ namespace HtmlSnippetGenerator
         public string Generate(string input)
         {
 
-            String[] lines = input.Split(new string[] {Environment.NewLine},StringSplitOptions.RemoveEmptyEntries);
+            String[] lines = input.Split(new string[] {"\n"},StringSplitOptions.RemoveEmptyEntries);
 
             StringBuilder builder = new StringBuilder();
             int line1 = 0;
@@ -40,23 +40,17 @@ namespace HtmlSnippetGenerator
 
             builder.Append("<td style=\"width:118px;\">");
             builder.Append(Environment.NewLine);
-            builder.Append("");
-            builder.Append(Environment.NewLine);
             builder.Append("</td>");
 
             builder.Append(Environment.NewLine);
 
             builder.Append("<td style=\"width:135px;\">");
             builder.Append(Environment.NewLine);
-            builder.Append("");
-            builder.Append(Environment.NewLine);
             builder.Append("</td>");
 
             builder.Append(Environment.NewLine);
 
             builder.Append("<td style=\"width:120px;\">");
-            builder.Append(Environment.NewLine);
-            builder.Append("");
             builder.Append(Environment.NewLine);
             builder.Append("</td>");
             builder.Append(Environment.NewLine);
@@ -66,20 +60,12 @@ namespace HtmlSnippetGenerator
             builder.Append("<tr>");
             builder.Append(Environment.NewLine);
             builder.Append("<td style=\"width:250px;\">");
-
             builder.Append(Environment.NewLine);
-
-            builder.Append("");
-
-            builder.Append(Environment.NewLine);
-
             builder.Append("</td>");
 
             builder.Append(Environment.NewLine);
 
             builder.Append("<td style=\"width:118px;\">");
-            builder.Append(Environment.NewLine);
-            builder.Append("");
             builder.Append(Environment.NewLine);
             builder.Append("</td>");
 
@@ -87,15 +73,11 @@ namespace HtmlSnippetGenerator
 
             builder.Append("<td style=\"width:135px;\">");
             builder.Append(Environment.NewLine);
-            builder.Append("");
-            builder.Append(Environment.NewLine);
             builder.Append("</td>");
 
             builder.Append(Environment.NewLine);
 
             builder.Append("<td style=\"width:120px;\">");
-            builder.Append(Environment.NewLine);
-            builder.Append("");
             builder.Append(Environment.NewLine);
             builder.Append("</td>");
             builder.Append(Environment.NewLine);
