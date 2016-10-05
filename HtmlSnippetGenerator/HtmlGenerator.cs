@@ -32,7 +32,7 @@ namespace HtmlSnippetGenerator
 
                 builder.Append("<tr>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:135px;\">");
+                builder.Append("<td style=\"width:100px;\">");
 
                 builder.Append(Environment.NewLine);
 
@@ -42,7 +42,7 @@ namespace HtmlSnippetGenerator
 
                 builder.Append("</td>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:270px;\">");
+                builder.Append("<td style=\"width:302px;\">");
 
                 builder.Append(Environment.NewLine);
 
@@ -72,7 +72,7 @@ namespace HtmlSnippetGenerator
 
                 builder.Append("</td>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:75px;\">");
+                builder.Append("<td style=\"width:85px;\">");
 
                 builder.Append(Environment.NewLine);
 
@@ -82,7 +82,7 @@ namespace HtmlSnippetGenerator
 
                 builder.Append("</td>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:75px;\">");
+                builder.Append("<td style=\"width:85px;\">");
 
                 builder.Append(Environment.NewLine);
 
@@ -102,7 +102,7 @@ namespace HtmlSnippetGenerator
 
                 builder.Append("</td>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:50px;\">");
+                builder.Append("<td style=\"width:75px;\">");
 
                 builder.Append(Environment.NewLine);
 
@@ -112,21 +112,7 @@ namespace HtmlSnippetGenerator
 
                 builder.Append("</td>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:75px;\">");
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append(items[8]);
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append("</td>");
-                builder.Append(Environment.NewLine);
                 builder.Append("<td style=\"width:95px;\">");
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append(items[9]);
 
                 builder.Append(Environment.NewLine);
 
@@ -136,8 +122,6 @@ namespace HtmlSnippetGenerator
                 builder.Append(Environment.NewLine);
                 builder.Append("</tr>");
                 builder.Append(Environment.NewLine);
-
-
 
             }
 
