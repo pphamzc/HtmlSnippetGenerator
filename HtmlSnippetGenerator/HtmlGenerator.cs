@@ -27,102 +27,94 @@ namespace HtmlSnippetGenerator
 
             for (int i = 0; i < lines.Length; i++)
             {
-
                 string[] items = lines[i].Split('|');
+                if ((i % 8) == 0)
+                {
+
+
+                    builder.Append("<tr>");
+                    builder.Append(Environment.NewLine);
+                    builder.Append("<td style=\"width:250px;\">");
+
+                    builder.Append(Environment.NewLine);
+
+                    builder.Append("Audible MSP Transition (Audio Production)");
+
+                    builder.Append(Environment.NewLine);
+
+                    builder.Append("</td>");
+                    builder.Append(Environment.NewLine);
+                    builder.Append("<td style=\"width:118px;\">");
+
+                    builder.Append(Environment.NewLine);
+
+                    builder.Append("</td>");
+                    builder.Append(Environment.NewLine);
+                    builder.Append("<td style=\"width:135px;\">");
+
+                    builder.Append(Environment.NewLine);
+
+                    builder.Append("</td>");
+                    builder.Append(Environment.NewLine);
+                    builder.Append("<td style=\"width:120px;\">");
+
+                    builder.Append(Environment.NewLine);
+
+                    builder.Append("</td>");
+                    builder.Append(Environment.NewLine);
+                    builder.Append("</tr>");
+                    builder.Append(Environment.NewLine);
+
+                }
 
                 builder.Append("<tr>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:100px;\">");
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append(items[0]);
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append("</td>");
-                builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:302px;\">");
+                builder.Append("<td style=\"width:250px;\">");
 
                 builder.Append(Environment.NewLine);
 
                 builder.Append(items[1]);
-
+                builder.Append("&nbsp;");
+                builder.Append(items[0]);
                 builder.Append(Environment.NewLine);
 
                 builder.Append("</td>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:100px;\">");
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append(items[2]);
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append("</td>");
-                builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:75px;\">");
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append(items[3]);
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append("</td>");
-                builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:85px;\">");
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append(items[4]);
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append("</td>");
-                builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:85px;\">");
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append(items[5]);
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append("</td>");
-                builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:60px;\">");
+                builder.Append("<td style=\"width:118px;\">");
 
                 builder.Append(Environment.NewLine);
 
                 builder.Append(items[6]);
+                builder.Append(Environment.NewLine);
+
+                builder.Append("</td>");
+                builder.Append(Environment.NewLine);
+                builder.Append("<td style=\"width:135px;\">");
+
+                builder.Append(Environment.NewLine);
+
+                builder.Append("USD");
+                builder.Append("&nbsp;");
+                builder.Append(items[8]);
 
                 builder.Append(Environment.NewLine);
 
                 builder.Append("</td>");
                 builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:75px;\">");
+                builder.Append("<td style=\"width:120px;\">");
 
                 builder.Append(Environment.NewLine);
 
-                builder.Append(items[7]);
-
-                builder.Append(Environment.NewLine);
-
-                builder.Append("</td>");
-                builder.Append(Environment.NewLine);
-                builder.Append("<td style=\"width:95px;\">");
+                builder.Append("USD");
+                builder.Append("&nbsp;");
+                builder.Append(items[9]);
 
                 builder.Append(Environment.NewLine);
 
                 builder.Append("</td>");
-                
-
                 builder.Append(Environment.NewLine);
                 builder.Append("</tr>");
                 builder.Append(Environment.NewLine);
-
             }
 
             return builder.ToString();
